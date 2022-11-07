@@ -1,0 +1,46 @@
+.container{
+    height: 280px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 1px 1px 20px lightgray;
+}
+
+
+.container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+     transition: 500ms; 
+}
+.container img:hover{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+
+.container p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 35px;
+    padding:10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(209, 209, 209);
+    transform: translateY(100%);
+    transition: 300ms;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: black;
+
+}
+.container:hover p{
+    transform: translateY(0);
+}

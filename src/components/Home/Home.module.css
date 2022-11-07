@@ -1,0 +1,19 @@
+.container {
+    padding: 30px;
+    
+}
+.title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.innerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
